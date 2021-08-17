@@ -1,0 +1,170 @@
+/* ---- TABLE DE STYLES ------ */
+/*  ----------BODY ------------*/
+/*  ----------MAIN ------------*/
+/*  ----------NAV--------------*/
+/*  ----------ARTICLE----------*/
+/*  ----------FOOTER-----------*/
+/*  ----PARTIE PAGE1-----------*/
+/*  ----------FORM ------------*/
+/*  -------------------------- */
+/*  -------------------------- */
+
+
+
+
+
+/*  Partie de CSS de la page index.html */
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+    /*  ----------BODY ------------*/
+body {
+    background-color: #F6F6F6;
+    font-family: sans-serif;
+}
+
+/*  ----------MAIN ------------*/
+
+main {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+/*  ----------NAV--------------*/
+
+nav{
+    background-color: #359E7B;
+}  
+
+nav ul{
+    width: 1150px;
+    margin:0 auto;
+    text-align:right;
+    
+}
+
+li{
+    display:inline;
+}
+
+li a{
+    color:#F6F6F6;
+    padding: 15px;
+    display:inline;
+}
+
+h1 {
+    color: #359e7b;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2, h3{
+    color: #006086;
+    font-weight: bolder;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
+/*  ----------ARTICLE----------*/
+
+article{
+    margin-bottom: 20px;
+}
+
+article a{
+    color:#8B008B;
+    display: block;
+    text-align: right;
+}
+
+.dateTime{
+    color:grey;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.moreAndMore{
+    text-align:center;
+    display:block;
+    background-color:#359E7B;
+    max-width: 250px;
+    color:#FFFFFF;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    }
+
+footer{
+    background-color:darkgray;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer a{
+    color:#FFFFFF;
+}
+
+/*  Partie de CSS de la page1.html */
+
+
+/*  ----------FORM ------------*/
+form{
+    max-width: 700px;
+    margin:0 auto;
+}
+   
+input{
+    font-size:25px;
+    border:0;
+    background-color:#F6F6F6;
+    border-bottom: 2px solid;
+    border-color: #359E7B;
+    padding: 15px;
+    margin: 20px;
+    width: 100%;
+}
+
+textarea{
+    font-size:25px;
+    resize:none;
+    height: 300px;
+    margin:20px;
+    padding: 15px;
+    width: 100%;
+    border:20px;
+    border:2px solid;
+    border-color:#359E7B;
+}
+
+.envoi{
+    background-color: #359E7B;
+    border:0;
+    border-radius: 5px;
+    
+    color:#FFFFFF;
+    cursor:pointer;
+}
+
+
+
+
+
