@@ -106,8 +106,7 @@ article a{
     max-width: 250px;
     color:#FFFFFF;
     padding: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    margin:0 auto;
     margin-top: 40px;
     border-radius: 5px;
     }
