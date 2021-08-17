@@ -144,13 +144,9 @@ input, textarea{
 }
 
 textarea{
-    font-size:25px;
     resize:none;
     height: 300px;
-    margin:20px;
-    padding: 15px;
     width: 100%;
-    border:20px;
     border:2px solid;
     border-color:#359E7B;
 }
