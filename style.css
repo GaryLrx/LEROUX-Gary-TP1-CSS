@@ -131,15 +131,16 @@ form{
     margin:0 auto;
 }
    
-input{
+input, textarea{
     font-size:25px;
-    border:0;
+    border:none;
     background-color:#F6F6F6;
     border-bottom: 2px solid;
     border-color: #359E7B;
     padding: 15px;
     margin: 20px;
     width: 100%;
+    box-sizing:border-box;
 }
 
 textarea{
