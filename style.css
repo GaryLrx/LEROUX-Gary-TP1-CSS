@@ -53,7 +53,7 @@ li{
 li a{
     color:#F6F6F6;
     padding: 15px;
-    display:inline;
+    display:inline-block;
 }
 
 h1 {
